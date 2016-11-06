@@ -1,0 +1,24 @@
+{
+  "version": "1.0.0-*",
+  "buildOptions": {
+    "debugType": "portable",
+    "emitEntryPoint": true,
+    "preserveCompilationContext": true
+  },
+  "dependencies": {
+    "Microsoft.AspNetCore.Mvc": "1.0.0",  //adding dependency for asp.net MVC
+    "Microsoft.AspNetCore.Server.Kestrel": "1.0.0",  //adding dependency for lightweight web server to serve the pages for website
+    "Microsoft.AspNetCore.StaticFiles": "1.0.0"   //adding dependency to server the static file
+  },
+  "frameworks": {   //added for core .net framework dependency
+    "netcoreapp1.0": {
+      "dependencies": {
+        "Microsoft.NETCore.App": {
+          "type": "platform",
+          "version": "1.0.0"
+        }
+      },
+      "imports": "dnxcore50"
+    }
+  }
+}
