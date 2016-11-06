@@ -1,6 +1,12 @@
 
     <h1>@ViewBag.Message</h1>
-    Additional message without view bag !!
+    <h3>Additional message without view bag !!</h3>
 
-    <input type="button" onclick="greet()" value="Greet!" />
+    <h3>The razor syntax check</h3>
+    <ul>
+    @for(int i = 1; i <=5; i++) {
+        <li>Counter is @i</li>
+    }
+    </ul>
+    <span>Greet ASP.NET Core : <input type="button" onclick="greet()" value="Greet!" /> </span>
     

@@ -1,4 +1,14 @@
+body 
+{
+    font-family : Verdana, Geneva, Tahoma, sans-serif;
+}
 h1 
 {
-    color : red;
+    color : grey;
 }
+
+h3
+{
+    color : darkgrey;
+}
+
